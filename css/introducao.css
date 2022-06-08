@@ -58,11 +58,14 @@
 
 @media (max-width: 400px) {
   .introducao img {
-    display: none;
+    width: auto;
+    height: 350px;
+
   }
 
   .introducao {
     grid-template-columns: 1fr;
-
+    justify-items: center;
+    padding: 25px;
   }
 }
