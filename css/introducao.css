@@ -59,7 +59,7 @@
 @media (max-width: 400px) {
   .introducao img {
     width: auto;
-    height: 250px;
+    height: 180px;
     content: url("../img/perfil_final2.png");
   }
 
