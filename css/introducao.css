@@ -59,9 +59,11 @@
 @media (max-width: 400px) {
   .introducao img {
     width: auto;
-    height: 350px;
-
+    height: 250px;
+    content: url("../img/perfil_menor.svg");
   }
+
+
 
   .introducao {
     grid-template-columns: 1fr;
