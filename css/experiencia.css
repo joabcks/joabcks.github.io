@@ -34,6 +34,16 @@
   gap: 10px 20px;
 }
 
+.empresa a{
+  text-decoration: none;
+  color: #141414;
+}
+
+.empresa a:hover{
+  text-decoration: none;
+  color: #67dd0a;
+}
+
 .empresa::before {
   content: '';
   display: block;
