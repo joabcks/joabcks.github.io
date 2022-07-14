@@ -1,6 +1,12 @@
 .animacao-bounce {
-  animation: bounce;
-  animation-duration: 1.5s;
+  animation: fadeIn;
+  animation-duration: 1s;
+  animation-delay: .2s;
+}
+
+.animacao-bounce-2 {
+  animation: fadeIn;
+  animation-duration: 2s;
   animation-delay: .2s;
 }
 
