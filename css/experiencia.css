@@ -1,3 +1,10 @@
+.card-1 {
+  animation: bounce;
+  animation-duration: 1.5s;
+  animation-delay: .2s;
+}
+
+
 .experiencia {
   max-width: 1200px;
   padding: 40px 20px;
@@ -34,12 +41,12 @@
   gap: 10px 20px;
 }
 
-.empresa a{
+.empresa a {
   text-decoration: none;
   color: #141414;
 }
 
-.empresa a:hover{
+.empresa a:hover {
   text-decoration: none;
   color: #67dd0a;
 }
@@ -95,27 +102,30 @@
 
 }
 
-@media (max-width: 800px){
-  .experiencia{
+@media (max-width: 800px) {
+  .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-    .experiencia .subtitulo{
-      color: #141414;
-    }
-    .experiencia-texto {
-      font-size: 1.25rem;
-    }
-    .empresa-ano{
-      position: initial;
-      order: 1;
-      width: initial;
-      text-align: left;
-    }
-  
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
   }
