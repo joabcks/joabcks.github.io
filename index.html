@@ -9,12 +9,12 @@
   <meta name="description" content="Desenvolvedor Front End em Belo Horizonte">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./img/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" data-anime="100">
     <img src="./img/joab.svg" alt="">
     <nav>
       <ul class="header-menu">
@@ -26,14 +26,14 @@
   </header>
 
   <main class="introducao">
-    <img class="perfil-foto animacao-bounce" src="./img//joab_perfil22.jpg" width="300" height="572" alt="">
-    <div class="animacao-bounce-2">
-      <h1>Desenvolvedor<br> Front End</h1>
-      <p>Desenvolvedor Front End em Belo Horizonte 💻</p>
+    <img class="perfil-foto" data-anime="200" src="./img//joab_perfil22.jpg" width="300" height="572" alt="">
+    <div>
+      <h1 data-anime="300">Desenvolvedor<br> Front End</h1>
+      <p data-anime="400">Desenvolvedor Front End em Belo Horizonte 💻</p>
     </div>
   </main>
 
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
+  <section data-anime="500" class="experiencia" id="experiencia" aria-label="Experiência">
     <h2 class="subtitulo">Experiência</h2>
     <div>
       <p class="experiencia-texto">
@@ -155,13 +155,8 @@
     </div>
 
   </footer>
-
-
-
-
-
-
-
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
