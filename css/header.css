@@ -24,7 +24,6 @@
 }
 
 .header-menu a:hover {
-  text-decoration: none;
   color: #70DA1C;
 }
 
@@ -38,5 +37,9 @@
   .header a {
     background-color: #f5f5f5;
     border-radius: 4px;
+  }
+
+  .header-menu a:hover {
+    color: #141414
   }
 }
