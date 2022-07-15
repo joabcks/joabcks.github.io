@@ -1,10 +1,31 @@
-/* 7 Adicione o CSS Essencial abaixo */
+[data-animacao] {
+  opacity: 0;
+  transition: .3s;
+}
+
 [data-anime] {
   opacity: 0;
+  transition: .3s;
 }
 
 .anime {
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
+}
+
+
+/* Classe que sera adicionada dinamicamente com JS */
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  transition: transform 0.8s, opacity 0.8s;
+}
+
+[data-anime='right'] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime='left'] {
+  transform: translate3d(-50px, 0, 0);
 }
