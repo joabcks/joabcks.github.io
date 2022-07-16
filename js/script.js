@@ -50,7 +50,7 @@ function typeWriter(elemento) {
   textoArray.forEach((letra, i) => {
     setTimeout(function () {
       elemento.innerHTML += letra;
-    }, 75 * i)
+    }, 95 * i)
   });
 }
 
