@@ -29,3 +29,183 @@
 .js [data-anime='left'] {
   transform: translate3d(-50px, 0, 0);
 }
+
+
+/* REDES SOCIAIS ANIMAÇÃO */
+
+/* carrega no mobile */
+@media (max-width: 1024px) {
+
+  .container_redes {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500px;
+  }
+
+  .container_redes a {
+    text-decoration: none;
+  }
+
+  .container_redes a:visited {
+    color: #111;
+  }
+
+  .container_redes .button_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 7px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  .container_redes .button_redes .icon_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50px;
+
+  }
+
+
+}
+
+
+/* carrega no desktop */
+@media (min-width: 1024px) {
+
+
+
+
+  .container_redes .button_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 7px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  .container_redes .button_redes .icon_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50px;
+
+  }
+
+
+
+  .container_redes a {
+    text-decoration: none;
+  }
+
+  .container_redes a:visited {
+    color: #111;
+  }
+
+  .container_redes {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --facebook: #4267b2;
+    --twitter: #1da1f2;
+    --instagram: #e1306c;
+    --github: #333;
+    --youtube: #ff0000;
+    --linkedin: #0A66C2;
+  }
+
+  .container_redes .button_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 7px;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+
+  .container_redes .button_redes .icon_redes {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50px;
+    transition: all 0.3s ease-out;
+  }
+
+  .container_redes .button_redes:hover {
+    width: 220px;
+  }
+
+  .container_redes .button_redes:hover .icon_redes {
+    color: #fff;
+  }
+
+  .container_redes .button_redes:nth-child(1):hover .icon_redes {
+    background-color: var(--github);
+  }
+
+  .container_redes .button_redes:nth-child(2):hover .icon_redes {
+    background-color: var(--linkedin);
+  }
+
+  .container_redes .button_redes:nth-child(3):hover .icon_redes {
+    background-color: var(--facebook);
+  }
+
+  .container_redes .button_redes:nth-child(4):hover .icon_redes {
+    background-color: var(--instagram);
+  }
+
+  .container_redes .button_redes .icon_redes i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+
+  .container_redes .button_redes span {
+    font-size: 25px;
+    font-weight: 500px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+
+  .container_redes .button_redes:nth-child(1):hover span {
+    color: var(--github);
+  }
+
+  .container_redes .button_redes:nth-child(2):hover span {
+    color: var(--linkedin);
+  }
+
+  .container_redes .button_redes:nth-child(3):hover span {
+    color: var(--facebook);
+  }
+
+  .container_redes .button_redes:nth-child(4):hover span {
+    color: var(--instagram);
+  }
+
+}
