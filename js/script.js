@@ -42,4 +42,18 @@ if (target.length) {
   });
 }
 
+/* Script efeito maquina de escrever */
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  console.log(textoArray);
+  textoArray.forEach((letra, i) => {
+    setTimeout(function () {
+      elemento.innerHTML += letra;
+    }, 75 * i)
+  });
+}
+
+const titulo = document.querySelector('.texto-animado');
+typeWriter(titulo);
 
