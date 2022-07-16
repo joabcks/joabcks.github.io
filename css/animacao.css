@@ -40,10 +40,12 @@
     margin-top: 30px;
     font-size: 25px;
     font-weight: 500px;
+    color: #111;
   }
 
   .container_redes a {
     text-decoration: none;
+    color: #111;
   }
 
   .container_redes a:visited {
@@ -110,6 +112,7 @@
 
   .container_redes a {
     text-decoration: none;
+    color: #111;
   }
 
   .container_redes a:visited {
