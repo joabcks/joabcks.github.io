@@ -7,6 +7,11 @@
   gap: 100px;
 }
 
+.experiencia h2:nth-child(2) {
+  margin-bottom: 20px;
+  color: #212121;
+}
+
 .experiencia .subtitulo {
   color: #e0e0e0;
 }
