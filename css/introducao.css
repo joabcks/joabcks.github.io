@@ -87,7 +87,7 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 570px) {
   .introducao img {
     width: auto;
     height: 180px;

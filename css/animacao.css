@@ -41,11 +41,14 @@
 @media (max-width: 1024px) {
 
   .container_redes {
+
+
     margin-top: 30px;
     font-size: 25px;
-    font-weight: 500px;
     color: #111;
   }
+
+ 
 
   .container_redes a {
     text-decoration: none;
