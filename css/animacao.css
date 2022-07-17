@@ -26,6 +26,10 @@
   transform: translate3d(50px, 0, 0);
 }
 
+.js [data-anime='up'] {
+  transform: translate3d(0, 50px, 0);
+}
+
 .js [data-anime='left'] {
   transform: translate3d(-50px, 0, 0);
 }
@@ -74,6 +78,7 @@
     border-radius: 50px;
 
   }
+
 
 
 }
@@ -210,5 +215,11 @@
   .container_redes .button_redes:nth-child(4):hover span {
     color: var(--instagram);
   }
+
+  /* muda posiçao carregamento dos cards no mobile */
+  .js [data-anime='left'] {
+    transform: translate3d(50px, 0, 0);
+  }
+
 
 }
