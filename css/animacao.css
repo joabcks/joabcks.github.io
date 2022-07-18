@@ -41,14 +41,12 @@
 @media (max-width: 1024px) {
 
   .container_redes {
-
-
     margin-top: 30px;
     font-size: 25px;
     color: #111;
   }
 
- 
+
 
   .container_redes a {
     text-decoration: none;
@@ -80,6 +78,7 @@
     line-height: 60px;
     border-radius: 50px;
 
+
   }
 
 
@@ -94,7 +93,8 @@
 
 
   .container_redes .button_redes {
-    display: inline-block;
+
+    /* display: inline-block; */
     height: 60px;
     width: 60px;
     margin: 0 7px;
@@ -107,7 +107,8 @@
 
 
   .container_redes .button_redes .icon_redes {
-    display: inline-block;
+
+    /* display: inline-block; */
     height: 60px;
     width: 60px;
     text-align: center;
@@ -128,8 +129,11 @@
   }
 
   .container_redes {
+    display: flex;
+    justify-content: center;
+    width: 500px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
+    margin-top: 60px;
     padding: 0;
     box-sizing: border-box;
   }
