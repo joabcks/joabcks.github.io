@@ -1,3 +1,9 @@
+/* rolagem suave para as sessoes */
+html {
+  scroll-behavior: smooth;
+}
+
+
 .js [data-animacao] {
   opacity: 0;
   transition: .3s;
