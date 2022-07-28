@@ -67,7 +67,7 @@
   }
 
   .introducao img {
-    width: 230px;
+    width: 180px;
 
   }
 
@@ -89,9 +89,9 @@
 
 @media (max-width: 570px) {
   .introducao img {
-    width: auto;
-    height: 180px;
-    content: url("../img/perfil_final2.png");
+    /* width: auto;
+    height: 180px; */
+
   }
 
 
