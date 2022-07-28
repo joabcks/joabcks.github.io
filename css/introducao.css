@@ -88,13 +88,6 @@
 }
 
 @media (max-width: 570px) {
-  .introducao img {
-    /* width: auto;
-    height: 180px; */
-
-  }
-
-
 
   .introducao {
     grid-template-columns: 1fr;
