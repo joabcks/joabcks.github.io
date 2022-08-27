@@ -1,9 +1,7 @@
 body {
-  font-family: 'Fira Sans', Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
-
-
 }
 
 h1,
@@ -17,6 +15,10 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
